@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paseo de mascotas los devs</title>
 </head>
+
 <body>
-    <h1>BIENVENIDO PASEO DE MASCOTAS LOS DEVS</h1>
+    <h1 id="titulo"></h1>
+    <br>
+    <p id="costos"></p>
+    <br>
+    <h2 id="indicaciones"></h2>
+    <label for="mascota">Ingrese cuantos perros desea pasear??: </label>
+    <input type="number" id="mascota">
+    <br>
+    <label for="mascota1">Ingrese cuantos gatos desea pasear?: </label>
+    <input type="number" id="mascota1">
+    <br>
+    <label for="tiempo-paseo">Ingrese tiempo de paseo. En minutos: </label>
+    <input type="number" id="tiempo-paseo">
+    <br>
+    <label for="pago">Si abono escriba si, de lo contrario no:</label>
+    <input type="text" id="pago">
+    <br>
+    <button onclick="devs()">INGRESAR</button>
+    <br>
+    <p id="mensaje"></p>
+
     <script src="EJE5.js"></script>
 </body>
+
 </html>
